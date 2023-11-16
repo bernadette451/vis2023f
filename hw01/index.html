@@ -178,14 +178,42 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      該次作業程式碼，請放在 https://github.com/<span style="color:red;">你的帳號</span>/vis2023f/hw<span style="color:red;">01</span>/src/ 檔案夾。
+      Simple baseline – 虛設成績表(隨機產生120人CSV成績表)，程式碼放在 https://github.com/<span style="color:red;">bernadette451</span>/vis2023f/hw01/<span style="color:red;">src-sasy</span>/
+    </div>
+    <div class="col-md-12 twenty">
+      Medium baseline – 虛設成績表(繪製v3蘋果成績表)，程式碼放在 https://github.com/<span style="color:red;">bernadette451</span>/vis2023f/hw01/<span style="color:red;">src-medium-v3</span>/
+    </div>
+    <div class="col-md-12 twenty">
+      Medium baseline – 虛設成績表(繪製v7蘋果成績表)，程式碼放在 https://github.com/<span style="color:red;">bernadette451</span>/vis2023f/hw01/<span style="color:red;">src-medium-v7</span>/
+    </div>
+  </div>
+
+  <!-- ------------------------------------------------>
+ <div class="row hw12">
+   <div class="col-md-12 twenty">
+     打開作品集資料夾 (GitHub 倉庫 vis2023f 傳送門)
+     <hr>
+     <input type="button" name="back" onclick="location.href='https://github.com/bernadette451/vis2023f/'" value="按我  ٩(｡・ω・｡)و   前往倉庫">
+   </div>
+ </div>
+  
+  <!-- ------------------------------------------------>
+  <div class="row hw12">
+    <div class="col-md-12 twenty">
+      <a href="https://bernadette451.github.io/vis2023f/hw01/src-sasy/hw1.html">https://<span style="color:red;">bernadette451</span>.github.io/vis2023f/hw01/src-easy - 產生 Dummy CSV 虛構成績表</a>
+    </div>
+    <div class="col-md-12 twenty">
+      <a href="https://bernadette451.github.io/vis2023f/hw01/src-medium-v3/hw1.html">https://<span style="color:red;">bernadette451</span>.github.io/vis2023f/hw01/src-medium-v3 - 繪製 v3 蘋果成績表</a>
+    </div>
+    <div class="col-md-12 twenty">
+      <a href="https://bernadette451.github.io/vis2023f/hw01/src-medium-v7/hw1.html">https://<span style="color:red;">bernadette451</span>.github.io/vis2023f/hw01/src-medium-v7 - 繪製 v3 蘋果成績表</a>
     </div>
   </div>
 
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
+      本次的作業讓我認識了Math.random()以及Math.floor兩個常用的函示以及javascript基本語法，還有D3.js一個用於操作文件基於數據的JavaScript函式庫該如何使用，以及如何讀取其他檔案跟對此進行操作的方法 。
     </div>
   </div>
 
@@ -200,38 +228,30 @@
           <th>分項描述</th>
         </tr>
         <tr>
-          <td rowspan="7" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td rowspan="4" id="myTotal"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>2</td>
-          <td>Simple baseline - 描述、描述、描述</td>
+          <td>Simple baseline - 產生 Dummy CSV 虛構成績表</td>
         </tr>
         <tr>
           <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
-          <td id='m2'>6</td>
-          <td>Medium baseline - 描述、描述、描述 </td>
+          <td id='m2'>3</td>
+          <td>Simple baseline - 繪製 v3 蘋果成績表</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
-          <td id='m3'>2</td>
-          <td>Strong baseline - 描述、描述、描述 </td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3" checked></td>
+          <td id='m3'>3</td>
+          <td>Medium baseline - 繪製 v7 蘋果成績表</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4"></td>
+          <td id='m4'>2</td>
+          <td>Strong baseline - 繪製 v7 創新成績表，參考D3畫廊，修改範例，推出創新成績表</td>
         </tr>
       </table>
+
     </div>
   </div>
-
-  <!-- ------------------------------------------------>
-  <div class="row hw12">
-    <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>
-
-  <!-- ------------------------------------------------>
-
-  <!-- ------------------------------------------------>
-
 
 <script>
   $(function() {
