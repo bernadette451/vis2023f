@@ -1,0 +1,14 @@
+{
+  "name": "dcc362d089457080",
+  "main": "dcc362d089457080@22.js",
+  "version": "22.0.0",
+  "homepage": "https://observablehq.com/d/dcc362d089457080",
+  "author": {
+    "name": "朱雨璇's Workspace",
+    "url": "https://observablehq.com/@zhu-yu-xuan-ws"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
