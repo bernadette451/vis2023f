@@ -1,0 +1,14 @@
+{
+  "name": "a876bb5ff895484b",
+  "main": "a876bb5ff895484b@71.js",
+  "version": "71.0.0",
+  "homepage": "https://observablehq.com/d/a876bb5ff895484b",
+  "author": {
+    "name": "朱雨璇's Workspace",
+    "url": "https://observablehq.com/@zhu-yu-xuan-ws"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
